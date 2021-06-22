@@ -4,4 +4,4 @@ desafios de algoritmos feitos em diversas linguagens da plataforma Digital Inova
   - Java
   - Python
   - Sql
-  - javascript 
+  - JavaScript 
