@@ -1,7 +1,35 @@
 package digital.innovation.one.desafios.java.ResolvendoAlgoritmosComJava._2AbreviandoPostsDoBlog;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        List<String> list = new ArrayList<>();
+
+        while (true) {
+            String casoTeste = scan.nextLine();
+            if (casoTeste.contains(".")) {
+                break;
+            }
+            list.add(casoTeste);
+        }
+        list.forEach(System.out::println);
+        for (String s : list) {
+            String[] arrTmp = s.split(" ");
+
+        }
+
+    }
+
+    public static void maiorString(String stringMaior) {
+
+
+    }
 }
+
 /*
 Desafio
 Leonardo é um nômade digital e viaja pelo mundo programando em diferentes cafés das cidades por
